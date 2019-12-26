@@ -1,0 +1,139 @@
+2019-12-25 10:50:14.634 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Starting SpringbootJpaCrudApplication on DESKTOP-Q3PLBBV with PID 12720 (D:\idea_workspace\SpringBoot_All\springboot_jpa_crud\target\classes started by 谭磊 in D:\idea_workspace\SpringBoot_All)
+2019-12-25 10:50:14.650 [main] INFO  c.t.s.SpringbootJpaCrudApplication - No active profile set, falling back to default profiles: default
+2019-12-25 10:50:15.168 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-25 10:50:15.215 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 1 JPA repository interfaces.
+2019-12-25 10:50:15.403 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 10:50:15.590 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-25 10:50:15.590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-25 10:50:15.590 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-25 10:50:15.590 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 10:50:15.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-25 10:50:15.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-12-25 10:50:15.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-25 10:50:15.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-25 10:50:15.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-12-25 10:50:15.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-25 10:50:15.699 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 976 ms
+2019-12-25 10:50:15.824 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-25 10:50:15.871 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2019-12-25 10:50:16.022 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-25 10:50:16.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-25 10:50:16.194 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-25 10:50:16.194 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-12-25 10:50:16.863 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-25 10:50:16.863 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 10:50:17.363 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 10:50:17.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-25 10:50:17.566 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 10:50:17.566 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Started SpringbootJpaCrudApplication in 3.481 seconds (JVM running for 4.567)
+2019-12-25 10:50:32.926 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 10:50:32.926 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-25 10:50:32.930 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-12-25 10:50:32.945 [http-nio-8080-exec-1] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:01.659 [http-nio-8080-exec-5] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:24.374 [http-nio-8080-exec-7] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:29.526 [http-nio-8080-exec-9] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:30.600 [http-nio-8080-exec-1] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:31.026 [http-nio-8080-exec-3] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:31.256 [http-nio-8080-exec-5] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:41.177 [http-nio-8080-exec-7] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 10:53:42.078 [http-nio-8080-exec-9] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 14:36:55.880 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Starting SpringbootJpaCrudApplication on DESKTOP-Q3PLBBV with PID 12100 (D:\idea_workspace\SpringBoot_All\springboot_jpa_crud\target\classes started by 谭磊 in D:\idea_workspace\SpringBoot_All)
+2019-12-25 14:36:55.880 [main] INFO  c.t.s.SpringbootJpaCrudApplication - No active profile set, falling back to default profiles: default
+2019-12-25 14:36:56.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-25 14:36:56.476 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 1 JPA repository interfaces.
+2019-12-25 14:36:56.651 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 14:36:56.974 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-25 14:36:56.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-25 14:36:56.990 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-25 14:36:56.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 14:36:56.990 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-25 14:36:56.990 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-12-25 14:36:57.005 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-25 14:36:57.005 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-25 14:36:57.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-12-25 14:36:57.211 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-25 14:36:57.211 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1269 ms
+2019-12-25 14:36:57.367 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-25 14:36:57.445 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2019-12-25 14:36:57.740 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-25 14:36:57.849 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-25 14:36:58.037 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-25 14:36:58.052 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-12-25 14:36:58.834 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-25 14:36:58.834 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 14:36:59.121 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 14:36:59.293 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-25 14:36:59.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 14:36:59.308 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Started SpringbootJpaCrudApplication in 3.914 seconds (JVM running for 4.85)
+2019-12-25 14:37:06.913 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 14:37:06.913 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-25 14:37:06.917 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-12-25 14:37:06.933 [http-nio-8080-exec-1] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 17:18:44.750 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Starting SpringbootJpaCrudApplication on DESKTOP-Q3PLBBV with PID 9004 (D:\idea_workspace\SpringBoot_All\springboot_jpa_crud\target\classes started by 谭磊 in D:\idea_workspace\SpringBoot_All)
+2019-12-25 17:18:44.750 [main] INFO  c.t.s.SpringbootJpaCrudApplication - No active profile set, falling back to default profiles: default
+2019-12-25 17:18:45.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-25 17:18:45.344 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 1 JPA repository interfaces.
+2019-12-25 17:18:45.563 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 17:18:45.875 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-25 17:18:45.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-25 17:18:45.906 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-25 17:18:45.922 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 17:18:45.922 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-25 17:18:45.922 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-12-25 17:18:45.922 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-25 17:18:45.922 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-25 17:18:45.953 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-12-25 17:18:46.125 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-25 17:18:46.125 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1312 ms
+2019-12-25 17:18:46.297 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-25 17:18:46.375 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2019-12-25 17:18:46.578 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-25 17:18:46.687 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-25 17:18:46.828 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-25 17:18:46.843 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-12-25 17:18:47.453 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-25 17:18:47.453 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 17:18:47.796 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 17:18:47.953 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-25 17:18:47.984 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 17:18:47.984 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Started SpringbootJpaCrudApplication in 3.897 seconds (JVM running for 5.041)
+2019-12-25 17:18:59.679 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 17:18:59.679 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-25 17:18:59.684 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-12-25 17:19:02.904 [http-nio-8080-exec-4] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 17:19:15.322 [http-nio-8080-exec-2] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 17:19:33.892 [http-nio-8080-exec-7] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 17:25:02.920 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Starting SpringbootJpaCrudApplication on DESKTOP-Q3PLBBV with PID 14608 (D:\idea_workspace\SpringBoot_All\springboot_jpa_crud\target\classes started by 谭磊 in D:\idea_workspace\SpringBoot_All)
+2019-12-25 17:25:02.935 [main] INFO  c.t.s.SpringbootJpaCrudApplication - No active profile set, falling back to default profiles: default
+2019-12-25 17:25:03.420 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2019-12-25 17:25:03.466 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 1 JPA repository interfaces.
+2019-12-25 17:25:03.638 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-25 17:25:03.810 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-25 17:25:03.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.18] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.18] using APR version [1.6.5].
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-12-25 17:25:03.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1  11 Sep 2018]
+2019-12-25 17:25:03.919 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-25 17:25:03.919 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 906 ms
+2019-12-25 17:25:04.029 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2019-12-25 17:25:04.076 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.9.Final}
+2019-12-25 17:25:04.219 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-25 17:25:04.281 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-12-25 17:25:04.360 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-12-25 17:25:04.375 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-12-25 17:25:04.766 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-25 17:25:04.781 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-25 17:25:05.031 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-25 17:25:05.176 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-25 17:25:05.191 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-25 17:25:05.191 [main] INFO  c.t.s.SpringbootJpaCrudApplication - Started SpringbootJpaCrudApplication in 2.737 seconds (JVM running for 3.738)
+2019-12-25 17:25:15.367 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-25 17:25:15.367 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-25 17:25:15.367 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2019-12-25 17:25:15.383 [http-nio-8080-exec-1] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
+2019-12-25 17:25:41.618 [http-nio-8080-exec-6] INFO  c.t.springboot_jpa_crud.controller.UserController - hello Sfl4j + logback......
