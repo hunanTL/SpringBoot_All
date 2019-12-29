@@ -1,0 +1,25 @@
+/*主页面样式*/
+body{
+   margin-left:auto;
+   margin-right:auto;
+   margin-TOP:100PX;
+   width:20em;
+   background: url(../images/login.jpg) repeat center fixed;
+   background-size:cover;
+}
+/*文本样式*/
+.treepagetext{
+ margin-top:10px;
+}
+.treepagetext p{
+ margin-top:20px;
+ color:#000;
+ font-size:20px;
+ line-height:10px;
+}
+
+
+
+
+
+

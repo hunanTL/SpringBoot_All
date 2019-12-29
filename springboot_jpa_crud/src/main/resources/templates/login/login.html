@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"></link>
+    <link rel="stylesheet" th:href="@{/css/login.css}"></link>
+
+</head>
+
+<body class="text-center jumbotron jumbotron-fluid">
+<!--字体-->
+<div class="treepagetext">
+    <h1>为什么要学习编程</h1>
+    <p>daily life</p>
+    <p>只要你坚持，就是小菜一碟</p>
+</div>
+     <h2>Please sign in</h2>
+     <form th:action="@{/login}" th:method="post" id="form-test">
+        <div class="form-group">
+            <label for="usr">用户名:</label>
+            <input type="text" class="form-control" id="usr" placeholder="请输入用户名" name="username" >
+        </div>
+        <div class="form-group">
+            <label for="pwd">密码:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="请输入密码" name="password">
+        </div>
+        <button type="submit" style="width:150px;" class="btn btn-primary" id="btn-test">登 录</button>
+        <a class="btn btn btn-primary" th:href="@{/toRegister}"  role="button" style="width:150px;">注册</a>
+    </form>
+</body>
+</html>

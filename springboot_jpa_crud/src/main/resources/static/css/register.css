@@ -1,0 +1,20 @@
+/*主页面样式*/
+body{
+   margin-left:auto;
+   margin-right:auto;
+   margin-TOP:100PX;
+   width:20em;
+   background: url(../images/2.jpg) repeat center fixed;
+   background-size:cover;
+}
+/*文本样式*/
+.treepagetext{
+   margin-top:10px;
+}
+
+
+
+
+
+
+

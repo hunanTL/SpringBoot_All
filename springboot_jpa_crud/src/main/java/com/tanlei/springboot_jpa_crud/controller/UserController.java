@@ -8,7 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
@@ -26,13 +28,29 @@ public class UserController {
     //登录页面
     @RequestMapping("/")
     public String login(){
-       return "user/login";
+       return "login/login";
     }
 
+
+    //登录判断
     @RequestMapping("/login")
-    public String index(){
-        logger.info("hello Sfl4j + logback......");
+    public String index(HttpServletRequest request){
+        String username=request.getParameter("username");
+        String password=request.getParameter("password");
         return "redirect:/list";
+
+    }
+
+    //注册
+    @RequestMapping("/toRegister")
+    public String register(){
+        return "login/register";
+    }
+
+    //注册完成跳回登录页面
+    @RequestMapping("/toAddAdmin")
+    public String getAddAdmin(){
+        return "login/login";
     }
 
     @RequestMapping("/list")
@@ -48,4 +66,8 @@ public class UserController {
         model.addAttribute("user", user);
         return "user/userEdit";
     }
+
+
+
+
 }
